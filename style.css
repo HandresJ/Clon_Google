@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #202124;
+    height: 100vh;
+}/**/
+
+header {
+    display: flex;
+    justify-content: end;
+    height: 60px;
+    padding: 0 18px;
+}
+
+header .options {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+header .options a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.dotsLogo {
+    display: inline-block;
+    background-image: url(assets/dotsLogo.svg);
+    background-repeat: no-repeat;
+    height: 24px;
+    width: 24px;
+    background-position: center;
+}
+
+.searchLogo {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url(/assets/searchLogo.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.microLogo {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background-image: url(/assets/microLogo.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.camLogo {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background-image: url(/assets/camLogo.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+header .options a img {
+    border-radius: 50%;
+    height: 24px;
+    width: 24px;
+}
+
+main {
+    height: calc(100% - 60px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+main .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+ }
+
+main .container figure {
+    height: 92px;
+}
+
+main .container figure img {
+    height: 100%;
+}
+
+main .container .searcherButtons {
+    display: flex;
+    gap: 10px;
+}
+
+main .container .searcher button {
+    border: none;
+    background-color: transparent;
+}
+
+#lucky {
+    border: none;
+    border-radius: 4px;
+    background-color: #303134;
+    padding: 12px;
+    color: whitesmoke;
+}
+
+#search {
+    border: none;
+    border-radius: 4px;
+    background-color: #303134;
+    padding: 12px;
+    color: whitesmoke;
+}
+
+main .container .searcherButtons button {
+    border: none;
+    border-radius: 4px;
+    background-color: #303134;
+    padding: 12px;
+    color: whitesmoke;
+}
+
+main .container .searcher {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    height: 40px;
+    width: 320px;
+    padding: 8px 12px;
+    border: 1px solid gray;
+    border-radius: 24px;
+}
+
+main .container .searcher input {
+    width: 100%;
+    color: whitesmoke;
+    background-color: transparent;
+    border: none;
+}
+
+main .container p {
+    color: whitesmoke;
+    font-size: small;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    height: 90px;
+    background-color: #171717;
+    padding: 0 30px;
+}
+
+footer section {
+    color: #999da2;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    height: 50%;
+}
+
+footer section.moreInfo {
+    border-top: #202124 solid 2px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer section.moreInfo div {
+    display: flex;
+    gap: 18px;
+}
+
+footer section.moreInfo div a {
+    color: #999da2;
+    text-decoration: none;
+}
